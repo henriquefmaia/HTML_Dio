@@ -1,25 +1,93 @@
 body
 {
     color: cornsilk;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 900px;
+    margin: auto;
 }
 
+#FotoPerfil
+{
+    border-radius: 50%;
+    border: 3px solid #505050;
+}
+
+#FotoPerfil:hover
+{
+    filter: none;
+    -webkit-filter: grayscale(50%);
+    -moz-filter:    grayscale(50%);
+    -ms-filter:     grayscale(50%);
+    -o-filter:      grayscale(50%);
+    
+}
 
 #title, .subtitle, .post_title
 {
-    color: blue;
+    color: #505050;
+}
+
+#title
+{
+    font-size: 40px;
+    text-transform: uppercase;
+    
+}
+
+#title:hover
+{
+    font-weight: bolder;
+    color: black;
 }
 
 .post_title
 {
     font-size: 16px;
     font-style: italic;
+    margin: 0%;
+    margin-bottom: 15px;
 }
 
-article
+.post
 {
     background: darkgray;
-    padding: 10px;
-    border: 3px solid black;
-    margin: 10px;
+    padding: 15px;
+    border: 3px solid #505050;
+    margin-bottom: 15px;
+}
 
+.post_content
+{
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    color: black;
+    text-align: justify;
+}
+
+.post_image
+{
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.post_image:hover
+{
+    filter: none;
+    -webkit-filter: grayscale(50%);
+    -moz-filter:    grayscale(50%);
+    -ms-filter:     grayscale(50%);
+    -o-filter:      grayscale(50%);
+}
+
+.contact_list
+{
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.contact_list li a
+{
+    text-decoration: none;
+    color: #505050;
 }
